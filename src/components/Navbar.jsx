@@ -66,7 +66,7 @@ function Navbar() {
 
         <button className="bg-custom-gradient text-white text-[16px] py-1 px-3 rounded-md font-semibold flex items-center gap-x-2">
           <img src={data?.data[0]?.calendarIcon?.url} className="w-5 h-5" />
-          Book a FREE Trial
+          {data?.data[0]?.calendarBtnTitle}
         </button>
 
         {/* Authentication Section */}
